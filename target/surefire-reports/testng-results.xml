@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="15" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5855" started-at="2024-02-23T15:46:04Z" finished-at="2024-02-23T15:46:10Z">
+    <groups>
+      <group name="regression">
+        <method signature="FirstUser2.Firstuser2()[pri:0, instance:com.Api.FirstUser2@4590c9c3]" name="Firstuser2" class="com.Api.FirstUser2"/>
+        <method signature="FirstUser4.Firstuser4()[pri:0, instance:com.Api.FirstUser4@3c09711b]" name="Firstuser4" class="com.Api.FirstUser4"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="FirstUser.Firstuser()[pri:0, instance:com.Api.FirstUser@7946e1f4]" name="Firstuser" class="com.Api.FirstUser"/>
+        <method signature="FirstUser3.Firstuser3()[pri:0, instance:com.Api.FirstUser3@b97c004]" name="Firstuser3" class="com.Api.FirstUser3"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="FirstUser.Firstuser()[pri:0, instance:com.Api.FirstUser@7946e1f4]" name="Firstuser" class="com.Api.FirstUser"/>
+        <method signature="FirstUser1.Firstuser1()[pri:0, instance:com.Api.FirstUser1@5cc7c2a6]" name="Firstuser1" class="com.Api.FirstUser1"/>
+        <method signature="FirstUser2.Firstuser2()[pri:0, instance:com.Api.FirstUser2@4590c9c3]" name="Firstuser2" class="com.Api.FirstUser2"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="5855" started-at="2024-02-23T15:46:04Z" finished-at="2024-02-23T15:46:10Z">
+      <class name="com.Api.FirstUser1">
+        <test-method status="PASS" signature="Firstuser1()[pri:0, instance:com.Api.FirstUser1@5cc7c2a6]" name="Firstuser1" duration-ms="140" started-at="2024-02-23T15:46:10Z" finished-at="2024-02-23T15:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstuser1 -->
+      </class> <!-- com.Api.FirstUser1 -->
+      <class name="com.Api.FirstUser3">
+        <test-method status="PASS" signature="Firstuser3()[pri:0, instance:com.Api.FirstUser3@b97c004]" name="Firstuser3" duration-ms="149" started-at="2024-02-23T15:46:10Z" finished-at="2024-02-23T15:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstuser3 -->
+      </class> <!-- com.Api.FirstUser3 -->
+      <class name="com.Api.FirstUser2">
+        <test-method status="PASS" signature="Firstuser2()[pri:0, instance:com.Api.FirstUser2@4590c9c3]" name="Firstuser2" duration-ms="137" started-at="2024-02-23T15:46:10Z" finished-at="2024-02-23T15:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstuser2 -->
+      </class> <!-- com.Api.FirstUser2 -->
+      <class name="com.Api.FirstUser">
+        <test-method status="PASS" signature="Firstuser()[pri:0, instance:com.Api.FirstUser@7946e1f4]" name="Firstuser" duration-ms="4459" started-at="2024-02-23T15:46:04Z" finished-at="2024-02-23T15:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstuser -->
+      </class> <!-- com.Api.FirstUser -->
+      <class name="com.Api.FirstUser4">
+        <test-method status="PASS" signature="Firstuser4()[pri:0, instance:com.Api.FirstUser4@3c09711b]" name="Firstuser4" duration-ms="920" started-at="2024-02-23T15:46:09Z" finished-at="2024-02-23T15:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstuser4 -->
+      </class> <!-- com.Api.FirstUser4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (1)" duration-ms="404" started-at="2024-02-23T15:46:11Z" finished-at="2024-02-23T15:46:11Z">
+    <groups>
+      <group name="regression">
+        <method signature="FirstUser2.Firstuser2()[pri:0, instance:com.Api.FirstUser2@58651fd0]" name="Firstuser2" class="com.Api.FirstUser2"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="FirstUser.Firstuser()[pri:0, instance:com.Api.FirstUser@62ee68d8]" name="Firstuser" class="com.Api.FirstUser"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="FirstUser.Firstuser()[pri:0, instance:com.Api.FirstUser@62ee68d8]" name="Firstuser" class="com.Api.FirstUser"/>
+        <method signature="FirstUser1.Firstuser1()[pri:0, instance:com.Api.FirstUser1@735b5592]" name="Firstuser1" class="com.Api.FirstUser1"/>
+        <method signature="FirstUser2.Firstuser2()[pri:0, instance:com.Api.FirstUser2@58651fd0]" name="Firstuser2" class="com.Api.FirstUser2"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="404" started-at="2024-02-23T15:46:11Z" finished-at="2024-02-23T15:46:11Z">
+      <class name="com.Api.FirstUser1">
+        <test-method status="PASS" signature="Firstuser1()[pri:0, instance:com.Api.FirstUser1@735b5592]" name="Firstuser1" duration-ms="128" started-at="2024-02-23T15:46:11Z" finished-at="2024-02-23T15:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstuser1 -->
+      </class> <!-- com.Api.FirstUser1 -->
+      <class name="com.Api.FirstUser">
+        <test-method status="PASS" signature="Firstuser()[pri:0, instance:com.Api.FirstUser@62ee68d8]" name="Firstuser" duration-ms="138" started-at="2024-02-23T15:46:11Z" finished-at="2024-02-23T15:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstuser -->
+      </class> <!-- com.Api.FirstUser -->
+      <class name="com.Api.FirstUser2">
+        <test-method status="PASS" signature="Firstuser2()[pri:0, instance:com.Api.FirstUser2@58651fd0]" name="Firstuser2" duration-ms="135" started-at="2024-02-23T15:46:11Z" finished-at="2024-02-23T15:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstuser2 -->
+      </class> <!-- com.Api.FirstUser2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="279" started-at="2024-02-23T15:46:10Z" finished-at="2024-02-23T15:46:11Z">
+    <groups>
+      <group name="regression">
+        <method signature="FirstUser2.Firstuser2()[pri:0, instance:com.Api.FirstUser2@6d00a15d]" name="Firstuser2" class="com.Api.FirstUser2"/>
+        <method signature="FirstUser4.Firstuser4()[pri:0, instance:com.Api.FirstUser4@36d4b5c]" name="Firstuser4" class="com.Api.FirstUser4"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="FirstUser2.Firstuser2()[pri:0, instance:com.Api.FirstUser2@6d00a15d]" name="Firstuser2" class="com.Api.FirstUser2"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="279" started-at="2024-02-23T15:46:10Z" finished-at="2024-02-23T15:46:11Z">
+      <class name="com.Api.FirstUser2">
+        <test-method status="PASS" signature="Firstuser2()[pri:0, instance:com.Api.FirstUser2@6d00a15d]" name="Firstuser2" duration-ms="129" started-at="2024-02-23T15:46:10Z" finished-at="2024-02-23T15:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstuser2 -->
+      </class> <!-- com.Api.FirstUser2 -->
+      <class name="com.Api.FirstUser4">
+        <test-method status="PASS" signature="Firstuser4()[pri:0, instance:com.Api.FirstUser4@36d4b5c]" name="Firstuser4" duration-ms="146" started-at="2024-02-23T15:46:10Z" finished-at="2024-02-23T15:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstuser4 -->
+      </class> <!-- com.Api.FirstUser4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
